@@ -1,0 +1,79 @@
+.specialist {
+  margin-top: 111px;
+  &__top {
+    text-align: center;
+  }
+
+  &__title {
+    font-size: 48rem;
+    font-weight: 700;
+    margin-bottom: 70px;
+  }
+
+  &__text {
+    font-size: 16rem;
+    font-weight: 400;
+    max-width: 837px;
+    margin-inline: auto;
+    margin-bottom: 123px;
+  }
+
+  &__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 27px;
+    @include tablet {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+  }
+}
+.item {
+  border-radius: 20px;
+  background: var(--Terciary, #f9f1fe);
+  padding: 52px 39px 39px 42px;
+  &__top {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__pretitle {
+    font-size: 20rem;
+    font-weight: 600;
+    margin-bottom: 3px;
+  }
+
+  &__title {
+    color: #575757;
+    font-size: 16rem;
+    font-weight: 400;
+  }
+
+  &__main {
+    margin-top: 25px;
+  }
+
+  &__text {
+    margin-bottom: 28px;
+    color: #575757;
+    font-size: 16rem;
+    font-weight: 400;
+  }
+
+  &__btn {
+    width: 100%;
+    text-align: center;
+    transition: 0.2s all ease-in-out;
+  }
+
+  .btn:hover {
+    transform: scale(1.1);
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 460px;
+  }
+}

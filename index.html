@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html id="html" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="owl/owl.carousel.css" />
+    <link rel="stylesheet" href="owl/owl.theme.default.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Start project</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <a href="/" class="header__logo">Харьковская областная больница</a>
+        <div class="header__nav">
+          <ul class="header__ul" id="headerUl">
+            <li class="header__li">
+              <a class="header__a _active" href="/">Главная</a>
+            </li>
+            <li class="header__li">
+              <a class="header__a" href="/">Наш сервис</a>
+            </li>
+            <li class="header__li">
+              <a class="header__a" href="/">Доктора</a>
+            </li>
+            <li class="header__li">
+              <a class="header__a" href="/">Контакты</a>
+            </li>
+            <span class="material-icons icon-close">close</span>
+          </ul>
+          <span class="material-icons icon-menu" onclick="navToggle()"
+            >menu</span
+          >
+        </div>
+        <div class="header__search">
+          <input type="search" placeholder="Поиск" />
+          <span class="material-icons">search</span>
+        </div>
+      </header>
+      <div class="owl-carousel owl-theme">
+        <div class="carousel-img">
+          <img src="./img/oblastnaya1.jpg" alt="carousel" />
+        </div>
+        <div class="carousel-img">
+          <img src="./img/oblastnaya2.png" alt="carousel" />
+        </div>
+        <div class="carousel-img">
+          <img src="./img/oblastnaya3.jpg" alt="carousel" />
+        </div>
+      </div>
+      <section class="service">
+        <div class="service__top">
+          <div class="service__title">Наш сервис</div>
+          <div class="service__text">
+            Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
+            etiam consectetur lacus. In malesuada dictum turpis amet porttitor
+            viverra laoreet at commodo. Pellentesque vitae id semper nec
+            sollicitudin. Quis purus, mus consectetur pharetra ipsum facilisis
+            amet cras purus.
+          </div>
+        </div>
+        <div class="service__main">
+          <div class="service__item1">
+            <div class="item1__img">
+              <img src="img/klipartz.com.png" alt="ring" />
+            </div>
+            <div class="item1__texts">
+              <div class="item1__title">Записаться на консультацию</div>
+              <div class="item1__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.
+              </div>
+              <a href="/" class="item1__btn"
+                >Узнать больше <img src="img/arrow.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+          <div class="service__item2">
+            <div class="item2__img">
+              <img src="img/klipartz.com.png" alt="ring" />
+            </div>
+            <div class="item2__texts">
+              <div class="item2__title">Записаться на консультацию</div>
+              <div class="item2__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.
+              </div>
+              <a href="/" class="item2__btn"
+                >Узнать больше <img src="img/arrow_white.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+          <div class="service__item3">
+            <div class="item3__img">
+              <img src="img/klipartz.com.png" alt="ring" />
+            </div>
+            <div class="item3__texts">
+              <div class="item3__title">Записаться на консультацию</div>
+              <div class="item3__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.
+              </div>
+              <a href="/" class="item3__btn"
+                >Узнать больше <img src="img/arrow.svg" alt="arrow"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="specialist">
+        <div class="specialist__top">
+          <div class="specialist__title">Наши специалисты</div>
+          <div class="specialist__text">
+            Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
+            etiam consectetur lacus. In malesuada dictum turpis amet porttitor
+            viverra laoreet at commodo. Pellentesque vitae id semper nec
+            sollicitudin. Quis purus, mus consectetur pharetra ipsum facilisis
+            amet cras purus.
+          </div>
+        </div>
+        <div class="specialist__items">
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/irina.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Ирина Лодяная</div>
+                <div class="item__title">Заведующая отделением</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Записаться</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/irina.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Ирина Лодяная</div>
+                <div class="item__title">Заведующая отделением</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Записаться</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/irina.png" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Ирина Лодяная</div>
+                <div class="item__title">Заведующая отделением</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Записаться</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/dmitriy.jpg" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Ирина Лодяная</div>
+                <div class="item__title">Заведующая отделением</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Записаться</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/dmitriy.jpg" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Ирина Лодяная</div>
+                <div class="item__title">Заведующая отделением</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Записаться</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item__top">
+              <div class="item__img">
+                <img src="/img/dmitriy.jpg" alt="man" />
+              </div>
+              <div class="item__texts">
+                <div class="item__pretitle">Ирина Лодяная</div>
+                <div class="item__title">Заведующая отделением</div>
+              </div>
+            </div>
+            <div class="item__main">
+              <div class="item__text">
+                Velit faucibus sed adipiscing commodo. Mattis in at amet,
+                facilisis eu dolor. Quam sit risus egestas morbi.Velit faucibus
+                sed adipiscing commodo. Mattis in at amet, facilisis eu dolor.
+                Quam sit risus egestas morbi.Velit faucibus sed adipiscing
+              </div>
+              <a href="/" class="btn item__btn">Записаться</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <form class="join">
+        <div class="join__title">Регистрация</div>
+        <div class="join__input">
+          <input type="email" placeholder="Адрес електронной почты" />
+          <button type="submit">
+            <span class="text">Зарегестрироваться</span>
+            <span class="material-icons"> local_mall </span>
+          </button>
+        </div>
+      </form>
+    </div>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__col footer__brand">
+          <a href="/" class="footer__logo">Харьковская областная больница</a>
+          <div class="footer__desc">
+            Magnis facilisis tortor volutpat lobortis ac id. Libero enim nunc
+            etiam consectetur lacus. In malesuada dictum turpis amet porttitor
+            viverra laoreet at commodo. Pellentesque vitae id semper nec
+            sollicitudin. Quis purus, mus consectetur pharetra ipsum facilisis
+            amet cras purus.
+          </div>
+        </div>
+        <div class="footer__col">
+          <div class="footer-info">
+            <div class="footer-info__title">Адрес</div>
+            <div class="footer-info__value">
+              проспект Независимости, 13, Харков, Харковская область, 61000
+            </div>
+          </div>
+          <div class="footer-info">
+            <div class="footer-info__title">Номер телефона</div>
+            <div class="footer-info__value">
+              <a href="tel:0740127246">057 705 6722</a>
+            </div>
+          </div>
+          <div class="footer-info">
+            <div class="footer-info__title">Адрес электронной почты</div>
+            <div class="footer-info__value">
+              <a href="mailto:name@email.com">oblastnaya13@ukrmail.com</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__col">
+          <div class="footer-hours">
+            <div class="footer-hours__title">Часы работы</div>
+            <div class="footer-hours__value">Будние: 9:00-10:00</div>
+            <div class="footer-hours__value">Выходные: 9:00-10:00</div>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <div>Made by Mr_Fur10us</div>
+          &copy;  all rights reserved <span id="copyright"></span>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="owl/owl.carousel.min.js"></script>
+    <script src="owl/owl.script.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

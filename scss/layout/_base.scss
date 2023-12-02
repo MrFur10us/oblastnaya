@@ -1,0 +1,25 @@
+html {
+  font-size: var(--html-fs);
+}
+
+body {
+  font-size: 16rem;
+  font-family: var(--ff);
+}
+.container {
+  max-width: calc(1170rem + 40rem);
+  padding: 20rem;
+  margin-inline: auto;
+}
+
+.btn {
+  border-radius: 22rem;
+  background: #8842f0;
+  padding: 11rem 25rem;
+  font: var(--Button);
+  color: var(--c-text-white);
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  outline: 0;
+}
