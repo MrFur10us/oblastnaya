@@ -8,6 +8,11 @@
     color: var(--c-Paragraph);
     font: var(--Heading-4);
     display: inline-block;
+    transition: 0.2s all ease-in-out;
+    &:hover {
+      text-shadow: 0rem 0rem 25rem #8842F0;
+      transform: scale(1.1);
+    }
   }
 
   &__search {

@@ -32,6 +32,10 @@
   border-radius: 20px;
   background: var(--Terciary, #f9f1fe);
   padding: 52px 39px 39px 42px;
+  transition: .3s all ease-in-out;
+  &:hover {
+    box-shadow: 0 0 90px rgba(200, 80, 255, 0.5);
+  }
   &__top {
     display: flex;
     align-items: center;
